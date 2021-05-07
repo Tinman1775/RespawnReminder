@@ -10,7 +10,7 @@
         {
             if (id == 0)
             {
-                __instance.ctrl.textChatScript.RpcAddMessage("Remember to use /respawn to respawn!", "blue");
+                __instance.player.textChat.RpcAddMessage("Remember to use /respawn to respawn!", "#FFD700");
             }
         }
     }
